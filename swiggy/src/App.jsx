@@ -1,5 +1,5 @@
 import Category from "./components/Category";
-import Header from "./components/HEader";
+import Header from "./components/Header";
 import OnlineDelivery from "./components/OnlineDelivery";
 import TopRest from "./components/TopRest";
 
