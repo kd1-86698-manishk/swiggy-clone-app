@@ -5,7 +5,7 @@ function Card(props) {
         <div className="group h-[182px] rounded-[15px] overflow-hidden relative">
           <img
             className="group-hover:scale-110 duration-150 object-cover w-full h-full"
-            src={"https://swiggy-clone-app-backend-j6xi.onrender.com/images/" + props.image}
+            src={"https://swiggy-clone-app-backend-j6xi.onrender.com/images" + props.image}
             alt=""
           />
           <div className="image-overlay absolute w-full h-full top-0 flex items-end p-2 text-[16px] md:text-[25px] font-bold text-white tracking-tighter">
