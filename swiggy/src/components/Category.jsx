@@ -6,7 +6,7 @@ function Category() {
   const [categories, setCategory] = useState([]);
 
   const fetchCategory = async () => {
-    const response = await fetch("http://localhost:5000/categories");
+    const response = await fetch("https://swiggy-clone-app-backend-j6xi.onrender.com/categories");
     const data = await response.json();
     setCategory(data);
   };
